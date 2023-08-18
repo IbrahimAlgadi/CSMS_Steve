@@ -24,6 +24,6 @@ services:
       - .:/code
     ports:
       - "8180:8180"
-      - "8443:8443"
+      - "8444:8444"
     depends_on:
       - db
