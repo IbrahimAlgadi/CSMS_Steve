@@ -7,7 +7,7 @@ volumes:
 services:
 
   db:
-    image: mariadb:10.4
+    image: mariadb:10.4.30
     ports:
       - 3366:3306
     environment:
